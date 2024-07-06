@@ -21360,11 +21360,11 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_MONSTER,
         .eggGroup2 = EGG_GROUP_DRAGON,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_CORROSION, ABILITY_AROMA_VEIL},
+            .abilities = {ABILITY_CORROSION, ABILITY_OBLIVIOUS},
         #else
             .abilities = {ABILITY_NONE, ABILITY_NONE},
         #endif
-        .abilityHidden = ABILITY_OBLIVIOUS,
+        .abilityHidden = ABILITY_AROMA_VEIL,
         .bodyColor = BODY_COLOR_BLACK,
         .noFlip = FALSE,
     },
@@ -21390,11 +21390,11 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_MONSTER,
         .eggGroup2 = EGG_GROUP_DRAGON,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_CORROSION, ABILITY_AROMA_VEIL},
+            .abilities = {ABILITY_CORROSION, ABILITY_CUTE_CHARM},
         #else
             .abilities = {ABILITY_NONE, ABILITY_NONE},
         #endif
-        .abilityHidden = ABILITY_OBLIVIOUS,
+        .abilityHidden = ABILITY_AROMA_VEIL,
         .bodyColor = BODY_COLOR_BLACK,
         .noFlip = FALSE,
     },
