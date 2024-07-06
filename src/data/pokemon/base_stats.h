@@ -19277,10 +19277,10 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_SLURPUFF] =
     {
-        .baseHP        = 82,
+        .baseHP        = 112,
         .baseAttack    = 80,
         .baseDefense   = 86,
-        .baseSpeed     = 72,
+        .baseSpeed     = 62,
         .baseSpAttack  = 85,
         .baseSpDefense = 75,
         .type1 = TYPE_FAIRY,
@@ -58324,7 +58324,7 @@ const struct BaseStats gVanillaBaseStats[] =
 
     [SPECIES_TOXTRICITY] =
     {
-        .baseHP        = 75,
+        .baseHP        = 85,
         .baseAttack    = 98,
         .baseDefense   = 70,
         .baseSpeed     = 75,
