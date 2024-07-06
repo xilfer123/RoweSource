@@ -19220,9 +19220,9 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_AROMATISSE] =
     {
         .baseHP        = 101,
-        .baseAttack    = 72,
+        .baseAttack    = 62,
         .baseDefense   = 72,
-        .baseSpeed     = 29,
+        .baseSpeed     = 39,
         .baseSpAttack  = 99,
         .baseSpDefense = 89,
         .type1 = TYPE_FAIRY,
@@ -19237,7 +19237,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FAIRY,
         .eggGroup2 = EGG_GROUP_FAIRY,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_HEALER, ABILITY_NONE},
+            .abilities = {ABILITY_HEALER, ABILITY_AROMA_VEIL},
             .abilityHidden = ABILITY_AROMA_VEIL,
         #else
             .abilities = {ABILITY_NONE, ABILITY_NONE},
@@ -21360,7 +21360,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_MONSTER,
         .eggGroup2 = EGG_GROUP_DRAGON,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_CORROSION, ABILITY_NONE},
+            .abilities = {ABILITY_CORROSION, ABILITY_AROMA_VEIL},
         #else
             .abilities = {ABILITY_NONE, ABILITY_NONE},
         #endif
@@ -21390,7 +21390,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_MONSTER,
         .eggGroup2 = EGG_GROUP_DRAGON,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_CORROSION, ABILITY_NONE},
+            .abilities = {ABILITY_CORROSION, ABILITY_AROMA_VEIL},
         #else
             .abilities = {ABILITY_NONE, ABILITY_NONE},
         #endif
