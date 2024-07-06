@@ -21372,7 +21372,7 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_SALAZZLE] =
     {
         .baseHP        = 68,
-        .baseAttack    = 64,
+        .baseAttack    = 84,
         .baseDefense   = 60,
         .baseSpeed     = 117,
         .baseSpAttack  = 111,
