@@ -16052,7 +16052,7 @@ const struct BaseStats gBaseStats[] =
         .baseSpAttack  = 120,
         .baseSpDefense = 60,
         .type1 = TYPE_DARK,
-        .type2 = TYPE_DARK,
+        .type2 = TYPE_GHOST,
         .catchRate = 45,
         .expYield = 179,
         .evYield_SpAttack  = 2,
@@ -23983,7 +23983,7 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_TOXTRICITY] =
     {
-        .baseHP        = 75,
+        .baseHP        = 85,
         .baseAttack    = 98,
         .baseDefense   = 70,
         .baseSpeed     = 75,
@@ -33372,7 +33372,7 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_TOXTRICITY_LOW_KEY] =
     {
-        .baseHP        = 75,
+        .baseHP        = 85,
         .baseAttack    = 98,
         .baseDefense   = 70,
         .baseSpeed     = 75,
@@ -50347,7 +50347,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .baseSpAttack  = 120,
         .baseSpDefense = 60,
         .type1 = TYPE_DARK,
-        .type2 = TYPE_DARK,
+        .type2 = TYPE_GHOST,
         .catchRate = 45,
         .expYield = 179,
         .evYield_SpAttack  = 2,
@@ -53582,10 +53582,10 @@ const struct BaseStats gVanillaBaseStats[] =
 
     [SPECIES_SLURPUFF] =
     {
-        .baseHP        = 82,
+        .baseHP        = 112,
         .baseAttack    = 80,
         .baseDefense   = 86,
-        .baseSpeed     = 72,
+        .baseSpeed     = 62,
         .baseSpAttack  = 85,
         .baseSpDefense = 75,
         .type1 = TYPE_FAIRY,
@@ -55687,11 +55687,11 @@ const struct BaseStats gVanillaBaseStats[] =
         .eggGroup1 = EGG_GROUP_MONSTER,
         .eggGroup2 = EGG_GROUP_DRAGON,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_CORROSION, ABILITY_NONE},
+            .abilities = {ABILITY_CORROSION, ABILITY_OBLIVIOUS},
         #else
             .abilities = {ABILITY_NONE, ABILITY_NONE},
         #endif
-        .abilityHidden = ABILITY_OBLIVIOUS,
+        .abilityHidden = ABILITY_AROMA_VEIL,
         .bodyColor = BODY_COLOR_BLACK,
         .noFlip = FALSE,
     },
@@ -55699,7 +55699,7 @@ const struct BaseStats gVanillaBaseStats[] =
     [SPECIES_SALAZZLE] =
     {
         .baseHP        = 68,
-        .baseAttack    = 64,
+        .baseAttack    = 84,
         .baseDefense   = 60,
         .baseSpeed     = 117,
         .baseSpAttack  = 111,
@@ -55717,11 +55717,11 @@ const struct BaseStats gVanillaBaseStats[] =
         .eggGroup1 = EGG_GROUP_MONSTER,
         .eggGroup2 = EGG_GROUP_DRAGON,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_CORROSION, ABILITY_NONE},
+            .abilities = {ABILITY_CORROSION, ABILITY_CUTE_CHARM},
         #else
             .abilities = {ABILITY_NONE, ABILITY_NONE},
         #endif
-        .abilityHidden = ABILITY_OBLIVIOUS,
+        .abilityHidden = ABILITY_AROMA_VEIL,
         .bodyColor = BODY_COLOR_BLACK,
         .noFlip = FALSE,
     },
@@ -67759,7 +67759,7 @@ const struct BaseStats gVanillaBaseStats[] =
 
     [SPECIES_TOXTRICITY_LOW_KEY] =
     {
-        .baseHP        = 75,
+        .baseHP        = 85,
         .baseAttack    = 98,
         .baseDefense   = 70,
         .baseSpeed     = 75,
