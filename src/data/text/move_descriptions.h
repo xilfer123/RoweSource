@@ -5438,7 +5438,7 @@ static const u8 sLUNGEDescription[] = _(
 
 static const u8 sFIRE_LASHDescription[] = _(
     "Whips the foe with fire\n"
-    "lowering its Defense.");
+    "lowering its Attack.");
 
 static const u8 sPOWER_TRIPDescription[] = _(
     "It hits harder the more\n"
