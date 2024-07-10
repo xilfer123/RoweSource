@@ -19080,12 +19080,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_MEOWSTIC] =
     {
-        .baseHP        = 74,
+        .baseHP        = 78,
         .baseAttack    = 48,
         .baseDefense   = 76,
-        .baseSpeed     = 110,
-        .baseSpAttack  = 100,
-        .baseSpDefense = 81,
+        .baseSpeed     = 81,
+        .baseSpAttack  = 83,
+        .baseSpDefense = 114,
         .type1 = TYPE_PSYCHIC,
         .type2 = TYPE_PSYCHIC,
         .catchRate = 75,
@@ -31705,10 +31705,10 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_MEOWSTIC_FEMALE] =
     {
-        .baseHP        = 74,
+        .baseHP        = 78,
         .baseAttack    = 48,
         .baseDefense   = 76,
-        .baseSpeed     = 104,
+        .baseSpeed     = 114,
         .baseSpAttack  = 83,
         .baseSpDefense = 81,
         .type1 = TYPE_PSYCHIC,
@@ -31724,7 +31724,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup2 = EGG_GROUP_FIELD,
         #ifdef BATTLE_ENGINE
             .abilities = {ABILITY_KEEN_EYE, ABILITY_INFILTRATOR},
-            .abilityHidden = ABILITY_COMPETITIVE,
+            .abilityHidden = ABILITY_CONTRARY,
         #else
             .abilities = {ABILITY_KEEN_EYE, ABILITY_NONE},
         #endif
@@ -53376,12 +53376,12 @@ const struct BaseStats gVanillaBaseStats[] =
 
     [SPECIES_MEOWSTIC] =
     {
-        .baseHP        = 74,
+        .baseHP        = 78,
         .baseAttack    = 48,
         .baseDefense   = 76,
-        .baseSpeed     = 104,
+        .baseSpeed     = 81,
         .baseSpAttack  = 83,
-        .baseSpDefense = 81,
+        .baseSpDefense = 114,
         .type1 = TYPE_PSYCHIC,
         .type2 = TYPE_PSYCHIC,
         .catchRate = 75,
@@ -66090,10 +66090,10 @@ const struct BaseStats gVanillaBaseStats[] =
 
     [SPECIES_MEOWSTIC_FEMALE] =
     {
-        .baseHP        = 74,
+        .baseHP        = 78,
         .baseAttack    = 48,
         .baseDefense   = 76,
-        .baseSpeed     = 104,
+        .baseSpeed     = 114,
         .baseSpAttack  = 83,
         .baseSpDefense = 81,
         .type1 = TYPE_PSYCHIC,
@@ -66109,7 +66109,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .eggGroup2 = EGG_GROUP_FIELD,
         #ifdef BATTLE_ENGINE
             .abilities = {ABILITY_KEEN_EYE, ABILITY_INFILTRATOR},
-            .abilityHidden = ABILITY_COMPETITIVE,
+            .abilityHidden = ABILITY_CONTRARY,
         #else
             .abilities = {ABILITY_KEEN_EYE, ABILITY_NONE},
         #endif
