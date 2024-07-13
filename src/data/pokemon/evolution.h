@@ -560,6 +560,7 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
     [SPECIES_CUFANT]                = {{EVO_LEVEL, 30, SPECIES_COPPERAJAH}},
     [SPECIES_DREEPY]                = {{EVO_LEVEL, 50, SPECIES_DRAKLOAK}},
     [SPECIES_DRAKLOAK]              = {{EVO_LEVEL, 60, SPECIES_DRAGAPULT}},
+    [SPECIES_CARBINK]               = {{EVO_LEVEL, 55, SPECIES_DIANCIE}},
     [SPECIES_KUBFU]                 = {{EVO_LEVEL, 50, SPECIES_URSHIFU},
                                        {EVO_LEVEL, 50, SPECIES_URSHIFU}},
     [SPECIES_RATTATA_ALOLAN]        = {{EVO_LEVEL_NIGHT, 20, SPECIES_RATICATE_ALOLAN}},
